@@ -3,6 +3,10 @@ name = "android-launcher"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "android-launcher"
+path = "src/main.rs"
+
 [dependencies]
 dialoguer = { version = "0.11.0", features = ["fuzzy-select"] }
 dotenvy = "0.15.7"
